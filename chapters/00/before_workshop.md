@@ -1,7 +1,7 @@
 # Before workshop
 
-1. Clone the logprobs workshop project: [https://github.com/MakkOen/logprobs-workshop](https://github.com/MakkOen/logprobs-workshop) and navigate to the `workshop` folder which contains the following:
-    * jupyter notebook `playground.ipynb`
+1. Clone the logprobs workshop project: [https://github.com/MakkOen/logprobs-workshop](https://github.com/MakkOen/logprobs-workshop) which contains the following:
+    * jupyter notebook `logprobs_workshop.ipynb`
     * `pyproject.toml` and `requirements.txt` to set up the environment with everything we need
 
 2. Set up the Python environment using your tool of choice:
