@@ -45,4 +45,4 @@
     ```
 
 ## Recommended Alternative:
-Open the [google colab notebook](https://colab.research.google.com/TODO) and make your own copy (`File -> Save a copy in Drive`)
+Open the [google colab notebook](https://colab.research.google.com/drive/1StpfS7yP27syhP7NQBo-aKVJQJcCu1ar?usp=drive_link) and make your own copy (`File -> Save a copy in Drive`)
