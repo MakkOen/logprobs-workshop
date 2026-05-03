@@ -1,0 +1,21 @@
+[project]
+name = "logprobs-workshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gdown>=6.0.0",
+    "ipykernel>=7.2.0",
+    "ipython>=9.13.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "openai>=2.33.0",
+    "optuna>=4.8.0",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "scikit-learn>=1.8.0",
+    "shap>=0.51.0",
+    "tqdm>=4.67.3",
+]
