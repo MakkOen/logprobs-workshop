@@ -1,5 +1,7 @@
 # Binary Classification
 
-A natural first use case for logprobs: instead of just asking the model for a yes/no answer, we ask it to output a single token (`incident` or `noise`) and read off the probability of that token directly.
+Binary classificator: getting yes/no answer to a question is an essential ML primitve and more than usual use case for LLMs.
 
-This gives us a **continuous confidence score** for every prediction, which we can then threshold however we like, trading precision against recall.
+A natural use for logprobs: instead of just asking the model for a yes/no and taking its answer as an output. We look at the logprobs of the yes/no tokens.
+
+This gives us a **confidence score** for every prediction, which we can then threshold however we like, trading precision against recall.

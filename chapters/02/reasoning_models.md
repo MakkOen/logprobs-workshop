@@ -1,8 +1,8 @@
-# Note: Reasoning Models
+# Reasoning Models
 
 ## Providers locking down capabilities
 
-Modern frontier models like `gpt-5` (and OpenAI's `o`-series reasoning models) do not support logprobs. The API simply returns an error, a deliberate provider decision to limit access to model internals:
+Modern frontier models like `gpt-5` (started with OpenAI's `o`-series reasoning models) do not support logprobs. The API simply returns an error, a deliberate provider decision to limit access to model internals:
 
 ```python
 response = client.responses.create(

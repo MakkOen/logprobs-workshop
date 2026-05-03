@@ -1,4 +1,4 @@
-# Classification using LLM
+# Use Case: Classification using LLM
 
 We prompt the model to output exactly one token (`incident` or `noise`) and read the logprob of that token as our confidence score.
 

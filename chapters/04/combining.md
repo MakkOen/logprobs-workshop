@@ -27,6 +27,11 @@ pred_correct = (
 
 ## Optimizing thresholds with Optuna
 
+:::{admonition} What is Optuna?
+:class: note dropdown
+Optuna is a hyperparameter optimization framework that automatically searches a parameter space using sampling strategies like TPE (Tree-structured Parzen Estimator). Instead of trying all combinations, it learns from previous trials to focus on promising regions. Here we use it in multi-objective mode, maximizing both precision and recall simultaneously, which produces a Pareto front of optimal trade-offs rather than a single best solution.
+:::
+
 Manual tuning six thresholds is tedious. Optuna explores the space automatically and finds the Pareto front between precision and recall:
 
 ```python
@@ -79,6 +84,11 @@ best_params = get_best_recall_for_precision(study, min_precision=0.95)
 ```
 
 ## Feature importance with SHAP
+
+:::{admonition} What is SHAP?
+:class: note dropdown
+SHAP (SHapley Additive exPlanations) assigns each feature a contribution score for a given prediction, based on game-theory Shapley values. It answers "how much did this feature push the prediction up or down?", giving you interpretable, consistent feature importance across any model. More: [shap.readthedocs.io](https://shap.readthedocs.io)
+:::
 
 Which of the six signals actually matters? SHAP tells us:
 

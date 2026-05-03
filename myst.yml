@@ -2,11 +2,6 @@ version: 1
 
 project:
   title: Logprobs Workshop
-  authors:
-    - name: Luděk Matyska
-      affiliation: ROUVY
-    - name: Vojtech Kadlec
-      affiliation: STRV
   copyright: "2025"
   github: https://github.com/MakkOen/logprobs-workshop
   toc:
@@ -18,6 +13,9 @@ project:
     - title: Introduction
       children:
         - file: chapters/01/intro.md
+        - file: chapters/01/blackbox.md
+        - file: chapters/01/logprobs.md
+        - file: chapters/01/confidence.md
     - title: Logprobs
       children:
         - file: chapters/02/intro.md
