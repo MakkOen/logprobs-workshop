@@ -1,0 +1,34 @@
+name: Rebase branch gh-pages and build Jupyter Book
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  rebase-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install jupyter-book ghp-import
+
+      - name: Build the book
+        run: jupyter-book build .
+
+      - name: Publish to GitHub Pages
+        run: ghp-import -n -p -f _build/html

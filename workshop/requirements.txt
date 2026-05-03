@@ -1,0 +1,12 @@
+openai
+jupyter
+ipykernel
+ipython
+pandas
+numpy
+matplotlib
+optuna
+shap
+scikit-learn
+tqdm
+gdown

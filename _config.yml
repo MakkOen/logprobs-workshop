@@ -1,0 +1,23 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Logprobs Workshop
+author: Luděk Matyska, ROUVY & Vojtech Kadlec, STRV
+logo: images/logos.png
+copyright: "2025"
+
+execute:
+  execute_notebooks: 'off'
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+repository:
+  url: https://github.com/MakkOen/logprobs-workshop
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  baseurl: https://makkoen.github.io/logprobs-workshop/intro.html

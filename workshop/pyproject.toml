@@ -1,0 +1,18 @@
+[project]
+name = "logprobs-workshop"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "openai",
+    "jupyter",
+    "ipykernel",
+    "ipython",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "optuna",
+    "shap",
+    "scikit-learn",
+    "tqdm",
+    "gdown",
+]
