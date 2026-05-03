@@ -1,4 +1,4 @@
-# Real Use Case: Hallucination Detection
+# Use Case: Hallucination Detection
 
 The original task: given a police/firefighter/EMS radio transcription, extract the address and a short title describing what's happening.
 

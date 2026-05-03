@@ -16,4 +16,4 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-The `system` message sets the model's behaviour for the entire conversation. Everything in `user` is the actual input.
+The `system` message sets the model's behaviour. Everything in `user` is the actual input.

@@ -1,6 +1,6 @@
 # LLM Judge
 
-A third signal: ask a second model to review each extraction and decide whether it's supported by the transcription. We get a single token (`yes`/`no`) back and use its logprob as the confidence.
+A third signal: ask a second model (best to have different model) to review each extraction and decide whether it's supported by the transcription. We get a single token (`yes`/`no`) back and use its logprob as the confidence.
 
 ```python
 INSTRUCTIONS_TITLE = """
