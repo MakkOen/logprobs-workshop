@@ -8,17 +8,19 @@ authors:
 
 # Probabilities Over Prompts Workshop
 
-Welcome to the Probabilities Over Prompts Workshop by Luděk Matyska, ROUVY, and Vojtech Kadlec, STRV.
+## Welcome to the Probabilities Over Prompts Workshop.
 
-![QR code](images/logprobs-workshop-qr.png)
+<img src="images/logprobs-workshop-qr.png" width="400"/>
 
 ## [https://tinyurl.com/logprobs-workshop](https://tinyurl.com/logprobs-workshop)
 
-How to Stop Begging and Start Modeling
+*How to Stop Begging and Start Modeling*
 
 This workshop will teach you how to stop praying to LLMs to deliver correct outputs and instead start modeling using old machine learning primitives (binary classification) to deliver reliable results.
 
-
 ---
 
-![ROUVY](images/rouvy.png) ![STRV](images/strv.png)
+<div style="display:flex; gap:2em; align-items:center">
+<img src="images/rouvy.png" width="300"/>
+<img src="images/strv.png" width="300"/>
+</div>
