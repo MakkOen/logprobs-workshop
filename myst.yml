@@ -1,0 +1,56 @@
+version: 1
+
+project:
+  title: Logprobs Workshop
+  authors:
+    - name: Luděk Matyska
+      affiliation: ROUVY
+    - name: Vojtech Kadlec
+      affiliation: STRV
+  copyright: "2025"
+  github: https://github.com/MakkOen/logprobs-workshop
+  toc:
+    - file: intro.md
+    - title: Before workshop
+      children:
+        - file: chapters/00/before_workshop.md
+        - file: chapters/00/setup.md
+    - title: Introduction
+      children:
+        - file: chapters/01/intro.md
+    - title: Logprobs
+      children:
+        - file: chapters/02/intro.md
+        - file: chapters/02/instructions.md
+        - file: chapters/02/logprobs_single_token.md
+        - file: chapters/02/multi_token.md
+        - file: chapters/02/reasoning_models.md
+    - title: Binary Classification
+      children:
+        - file: chapters/03/intro.md
+        - file: chapters/03/data.md
+        - file: chapters/03/classification.md
+        - file: chapters/03/threshold_tuning.md
+    - title: Hallucination Detection
+      children:
+        - file: chapters/04/intro.md
+        - file: chapters/04/data.md
+        - file: chapters/04/model_confidence.md
+        - file: chapters/04/embeddings.md
+        - file: chapters/04/llm_judge.md
+        - file: chapters/04/combining.md
+    - title: Outro
+      children:
+        - file: chapters/05/outro.md
+
+site:
+  title: Logprobs Workshop
+  template: book-theme
+  options:
+    logo: images/logos.png
+  nav:
+    - title: Home
+      url: /intro
+  actions:
+    - title: GitHub
+      url: https://github.com/MakkOen/logprobs-workshop
