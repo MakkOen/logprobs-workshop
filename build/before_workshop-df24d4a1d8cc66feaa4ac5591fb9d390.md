@@ -39,10 +39,7 @@
     jupyter notebook playground.ipynb
     ```
 
-4. Got to [https://pastebin.com/TODO](https://pastebin.com/TODO), password is on the whiteboard, and copy one of the API keys to the notebook:
-    ```python
-    OPENAI_API_KEY = ...
-    ```
+4. Got to [https://pastebin.com/UYQD5XPA](https://pastebin.com/UYQD5XPA), password is `mlprague`, and copy one of the API keys to the notebook.
 
 ## Recommended Alternative:
 Open the [google colab notebook](https://colab.research.google.com/drive/1StpfS7yP27syhP7NQBo-aKVJQJcCu1ar?usp=drive_link) and make your own copy (`File -> Save a copy in Drive`)
